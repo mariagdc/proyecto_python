@@ -1,0 +1,64 @@
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\Alumno>cd api-rest
+
+C:\Users\Alumno\api-rest>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: 3224-5C3B
+
+ Directorio de C:\Users\Alumno\api-rest
+
+24/09/2025  19:12    <DIR>          .
+24/09/2025  19:12    <DIR>          ..
+24/09/2025  18:55    <DIR>          .venv
+24/09/2025  19:12    <DIR>          Nueva carpeta
+24/09/2025  19:11    <DIR>          Proyecto-Python
+               0 archivos              0 bytes
+               5 dirs  62.161.727.488 bytes libres
+
+C:\Users\Alumno\api-rest>.venv\Scripts\activate
+
+### UNA VEZ LO ACTIVO INSTALO FAST API CON PIP INSTALL "FASTAPI" [STANDARD]
+
+(.venv) C:\Users\Alumno\api-rest>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: 3224-5C3B
+
+ Directorio de C:\Users\Alumno\api-rest
+
+24/09/2025  19:12    <DIR>          .
+24/09/2025  19:12    <DIR>          ..
+24/09/2025  18:55    <DIR>          .venv
+24/09/2025  19:12    <DIR>          Nueva carpeta
+24/09/2025  19:11    <DIR>          Proyecto-Python
+               0 archivos              0 bytes
+               5 dirs  62.161.752.064 bytes libres
+
+(.venv) C:\Users\Alumno\api-rest>cd Proyecto-Python
+
+(.venv) C:\Users\Alumno\api-rest\Proyecto-Python>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: 3224-5C3B
+
+ Directorio de C:\Users\Alumno\api-rest\Proyecto-Python
+
+24/09/2025  19:11    <DIR>          .
+24/09/2025  19:11    <DIR>          ..
+24/09/2025  19:11               843 .gitignore
+24/09/2025  19:15    <DIR>          PyServer
+24/09/2025  19:11             5.063 README.md
+               2 archivos          5.906 bytes
+               3 dirs  62.161.362.944 bytes libres
+
+(.venv) C:\Users\Alumno\api-rest\Proyecto-Python>cd pyserver
+
+(.venv) C:\Users\Alumno\api-rest\Proyecto-Python\PyServer>uvicorn controller:app --reload
+←[32mINFO←[0m:     Will watch for changes in these directories: ['C:\\Users\\Alumno\\api-rest\\Proyecto-Python\\PyServer']
+←[32mINFO←[0m:     Uvicorn running on ←[1mhttp://127.0.0.1:8000←[0m (Press CTRL+C to quit)
+←[32mINFO←[0m:     Started reloader process [←[36m←[1m11548←[0m] using ←[36m←[1mWatchFiles←[0m
+←[32mINFO←[0m:     Started server process [←[36m9580←[0m]
+←[32mINFO←[0m:     Waiting for application startup.
+←[32mINFO←[0m:     Application startup complete.
+←[32mINFO←[0m:     127.0.0.1:50083 - "←[1mGET /docs HTTP/1.1←[0m" ←[32m200 OK←[0m
+←[32mINFO←[0m:     127.0.0.1:50083 - "←[1mGET /openapi.json HTTP/1.1←[0m" ←[32m200 OK←[0m
+
