@@ -18,7 +18,7 @@ C:\Users\Alumno\api-rest>dir
 
 C:\Users\Alumno\api-rest>.venv\Scripts\activate
 
-### UNA VEZ LO ACTIVO INSTALO FAST API CON PIP INSTALL "FASTAPI" [STANDARD]
+### UNA VEZ LO ACTIVO INSTALO FAST API CON PIP INSTALL "FASTAPI[STANDARD]"
 
 (.venv) C:\Users\Alumno\api-rest>dir
  El volumen de la unidad C no tiene etiqueta.
